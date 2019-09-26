@@ -1,0 +1,48 @@
+Project Milestone One:
+
+Team Number:
+101-06
+
+Team Name:
+ProjectSource
+
+Team Members:
+Andrew Hahn
+Jarod Laroco
+Mason Dobbins
+John Salame
+Benjamin Wright
+
+Application Name:
+ProjectSource
+
+Application Description:
+	ProjectSource is a web application that serves computer science project ideas to users in order to help them grow their project portfolios. The core functionality of ProjectSource will be a search feature which takes project ideas stored in the backend database and serves them to users in an ordered list based on a variety of criteria such as keyword relevance, category, and skills required, which will be cross referenced with a user object which contains information about these criteria for each user. First time users will fill out a short questionnaire which will be used to generate the user object based on their responses. 
+	The primary value provided by ProjectSource is twofold. One is that it consolidates project ideas from a variety of sources, which makes all of the information already available to students easy to find and search. This eliminates the frustration of not knowing where to start, which is commonly cited as a reason that students do not pursue personal projects. The other primary benefit is personalization. While resources exist that have potential project ideas, such as Github, it is difficult for students to find projects that are relevant to both their interests and current skill level. By serving recommended projects to users based on their stated preferences, we make it easier to find projects that users are both capable and interested in pursuing.
+	Stretch goals beyond the core implementation are also a potential part of our application. Given that the core functionality is complete and polished, we also can add a functionality that allows users to post project ideas of their own, though this introduces security concerns such as SQL Injection and XSS. We can also introduce a feature which allows users to “like” projects that they are interested in both to allow students to more easily revisit those pages and to refine user object attributes as a user provides data on projects that they like.
+ 
+Vision Statement:
+	ProjectSource is a web app for students looking to grow their project portfolios. ProjectSource is a database service that serves personalized project ideas to users. Unlike Github’s search, our project takes into account student interests and skills to find serve personalized project ideas to students.
+
+Version Control:
+Team meeting logs: https://github.com/John-Salame/Project-Source-Team-Logs
+Milestone Submissions: https://github.com/John-Salame/Project-Source-Milestone-Submissions
+Code: https://github.com/John-Salame/Project-Source-Code
+
+Development Method:
+Agile/Scrum. We will discuss our progress and assign tasks at each weekly meeting. We are choosing to use Agile over Waterfall because we prefer the capability and flexibility of an iterative methodology over a linear one.  We understand that plans change and that there are multiple solutions to the same problem that might arise as we progress.  We will have scrum meetings within our face to face weekly meetings.  We will use Trello as an online tasks division website so that we can divide tasks and see each other’s task progress. Scrum master: Andrew Hahn
+
+Communication Plan:
+Our group plans to meet weekly for two hour chunks to discuss where our project is in terms of progress, what tasks need to be accomplished, and who will be taking on which tasks.  We will be using a Groupme group chat in order to communicate during the week, so that we have a way to contact each other to see how people are progressing, what questions people have, and what changes need to take place.  Using git as our version control software, and the Github interface, we will be able to communicate to one another when any of us make changes to the project by leaving push comments.  We will use Trello for online task divisoning, so that we can see which people are on which tasks, and how much progress they have made on said tasks.
+
+
+
+
+Proposed Architecture Plan:
+Front end: Use HTML to create a webpage; use Bootstrap and CSS used to style the pages; use React.js library for dynamic frontend elements.
+Integration Layer: Node.js will be used for our integration layer framework and other logic elements.
+Backend database will be constructed with mySQL
+We will also use APIs where applicable to ease implementation of features requiring advanced logic.
+
+Meeting Plan:
+Our team will meet face-to-face every week, Wednesdays from 03:00pm-5:00pm in the Engineering Center Lobby.
